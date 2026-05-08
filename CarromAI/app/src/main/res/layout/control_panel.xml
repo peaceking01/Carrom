@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="280dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#CC000000"
+    android:padding="16dp"
+    android:elevation="8dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AI Control Panel"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnStartScan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Scan"
+        android:textColor="#FFFFFF"
+        android:background="#4CAF50"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/btnShowAimLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Aim Line: OFF"
+        android:textColor="#FFFFFF"
+        android:background="#2196F3"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/btnAutoPlay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Auto Play: OFF"
+        android:textColor="#FFFFFF"
+        android:background="#FF9800"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/btnStopEngine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stop Engine"
+        android:textColor="#FFFFFF"
+        android:background="#F44336"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/btnSettings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Settings"
+        android:textColor="#FFFFFF"
+        android:background="#9E9E9E"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/tvInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ready"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>
