@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#1E1E1E">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Carrom AI Assistant"
+        android:textSize="24sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="32dp" />
+
+    <Button
+        android:id="@+id/btnRequestOverlay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Request Overlay Permission"
+        android:textColor="#FFFFFF"
+        android:background="#3F51B5"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnRequestCapture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Request Screen Capture"
+        android:textColor="#FFFFFF"
+        android:background="#3F51B5"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnAccessibility"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enable Accessibility Service"
+        android:textColor="#FFFFFF"
+        android:background="#3F51B5"
+        android:layout_marginBottom="32dp" />
+
+    <Button
+        android:id="@+id/btnStartService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start AI Assistant"
+        android:textColor="#FFFFFF"
+        android:background="#4CAF50"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnStopService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stop AI Assistant"
+        android:textColor="#FFFFFF"
+        android:background="#F44336" />
+
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Status: Not Running"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:layout_marginTop="32dp"
+        android:gravity="center" />
+
+</LinearLayout>

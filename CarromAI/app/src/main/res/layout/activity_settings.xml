@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1A1A2E"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Friction -->
+        <TextView android:id="@+id/tvFriction"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Friction: 0.985" android:textColor="#FFFFFF" android:textSize="16sp"
+            android:layout_marginTop="24dp"/>
+        <SeekBar android:id="@+id/sbFriction"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:max="100" android:progress="85" android:layout_marginTop="8dp"/>
+
+        <!-- Power -->
+        <TextView android:id="@+id/tvPower"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Shot Power: 28" android:textColor="#FFFFFF" android:textSize="16sp"
+            android:layout_marginTop="24dp"/>
+        <SeekBar android:id="@+id/sbPower"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:max="60" android:progress="28" android:layout_marginTop="8dp"/>
+
+        <!-- Cooldown -->
+        <TextView android:id="@+id/tvCooldown"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Shot Cooldown: 1800ms" android:textColor="#FFFFFF" android:textSize="16sp"
+            android:layout_marginTop="24dp"/>
+        <SeekBar android:id="@+id/sbCooldown"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:max="30" android:progress="18" android:layout_marginTop="8dp"/>
+
+        <!-- FPS -->
+        <TextView android:id="@+id/tvFps"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Capture FPS: 30" android:textColor="#FFFFFF" android:textSize="16sp"
+            android:layout_marginTop="24dp"/>
+        <SeekBar android:id="@+id/sbFps"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:max="60" android:progress="30" android:layout_marginTop="8dp"/>
+
+        <!-- Show Coins Toggle -->
+        <LinearLayout
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="horizontal" android:gravity="center_vertical"
+            android:layout_marginTop="24dp">
+            <TextView
+                android:layout_width="0dp" android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Show Detected Coins" android:textColor="#FFFFFF" android:textSize="16sp"/>
+            <Switch android:id="@+id/swShowCoins"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:checked="true"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
